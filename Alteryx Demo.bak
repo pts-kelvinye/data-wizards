@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>member_Merged_PCA_Data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Account Balance" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Bonus" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Bonus/Discount %" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Comparable_Promo" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Date" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Day of Promo" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Days in Market" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Eligible Audience" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Enrollment Date" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="FT/Repeat" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Member ID" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Miles" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Miles + Bonus" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Payment Method" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Postal Code" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Posting Type" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Promo Code" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Promo Type" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Promotion Name" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Promotion Type" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Revenue" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Tier Status" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Toronto End Date/Time" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Toronto Start Date/Time" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Transaction ID" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Co-brand" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="ORDER_ID" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="ORDER_KEY" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Partner Revenue Base" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Partner Revenue Bonus" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Partner_Revenue Processing Fee" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Whole Sale Currency" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Presentment Currency" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Remittance Currency" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Emailable" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Email_Sent" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Email_Opened" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Email_Responded" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Decile" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Propensity" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Segment" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Group" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Offer" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Right_Promo Code" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Tier Structure" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Right_Offer Description" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Right_Promo Type" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+            <Field name="Cobrand" size="254" source="File: C:\Users\kelvin.ye\Google Drive\My Documents\Analytics-Kelvin\PCA\United\member_Merged_PCA_Data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="258" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alteryx Demo</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
