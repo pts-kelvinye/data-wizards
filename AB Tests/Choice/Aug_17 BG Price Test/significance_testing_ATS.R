@@ -18,6 +18,8 @@ summary(df1)
 ## check data types
 str(df1)
 
+df1
+
 ### Plot all the data by test and control Offer_Names ###
 ###                                                   ###
 
@@ -92,3 +94,19 @@ bartlett.test(log(df1$ATS)~df1$Test_Type, data=df1) #variance not significantly 
 wilcox.test(df1$ATS~df1$Test_Type, conf.level=0.05) # 0.01928 significant
 t.test(log(df1$ATS)~df1$Test_Type, conf.level=0.05, var.equal=FALSE) # 0.03224 significant
 kruskal.test(ATS~Test_Type, data=df1) # 0.01928 significant
+
+
+## Tableau Wilcox Test Script validation
+data <- cbind(df1$Points, as.factor(df1$Test_Type))
+data
+s <- split(data[,1],f=data[,2]) 
+s[[2]]
+s[[1]]
+wilcox.test(s[[1]],s[[2]])$p.value
+
+data <- cbind(.arg1, as.factor(.arg2))
+s <- split(data[,1],f=data[,2]) 
+data
+wilcox.test(s[[1]],s[[2]],conf.level = 0.05)$p.value
+
+

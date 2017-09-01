@@ -2,4 +2,7 @@
 *.csv
 *.twbx
 *.PNG
+*.xls
+*.xlsx
+*.tdsx
 logs/
