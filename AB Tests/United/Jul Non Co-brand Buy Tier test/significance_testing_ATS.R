@@ -22,7 +22,7 @@ str(df1)
 ###                                                   ###
 
 ##subset data into high/med as well as mass
-df1<-subset(df1, df1$Test_Type=="4 Tiers" |  df1$Test_Type=="5 Tiers")
+df1<-subset(df1, df1$Test_Type=="Test" |  df1$Test_Type=="Control")
 ##df1_med<-subset(df1, df1$Test_Type=="Mass Control IHG" |  df1$Test_Type=="Mass Test IHG")
 
 ## This will filter out the sessions
@@ -62,20 +62,20 @@ p_high + labs(y="Average Points Purchased", x="Offer") + theme(axis.text.x = ele
 ## Step 1: assess normality of distributions
 
 #test Points normality high
-ad.test(subset(df1, df1$Test_Type=="5 Tiers")$ATS)
-cvm.test(subset(df1, df1$Test_Type=="5 Tiers")$ATS)
-shapiro.test(subset(df1, df1$Test_Type=="5 Tiers")$ATS)
+ad.test(subset(df1, df1$Test_Type=="Control")$ATS)
+cvm.test(subset(df1, df1$Test_Type=="Control")$ATS)
+shapiro.test(subset(df1, df1$Test_Type=="Control")$ATS)
 
-ad.test(subset(df1, df1$Test_Type=="4 Tiers")$ATS)
-cvm.test(subset(df1, df1$Test_Type=="4 Tiers")$ATS)
-shapiro.test(subset(df1, df1$Test_Type=="4 Tiers")$ATS)
+ad.test(subset(df1, df1$Test_Type=="Test")$ATS)
+cvm.test(subset(df1, df1$Test_Type=="Test")$ATS)
+shapiro.test(subset(df1, df1$Test_Type=="Test")$ATS)
 
 ## Step 2: assess variance between Test_Types
 
 ##look at variance
 ##df1
-var(subset(df1, df1$Test_Type=="4 Tiers")$ATS)
-var(subset(df1, df1$Test_Type=="5 Tiers")$ATS)
+var(subset(df1, df1$Test_Type=="Test")$ATS)
+var(subset(df1, df1$Test_Type=="Control")$ATS)
 
 
 ## Bartlett Test
