@@ -23,12 +23,10 @@ str(df1)
 
 ##subset data into high/med as well as mass
 df1<-subset(df1, df1$Test_Type=="Test" |  df1$Test_Type=="Control")
-##df1_med<-subset(df1, df1$Offer_Name=="Mass Control IHG" |  df1$Offer_Name=="Mass Test IHG")
 
 df1<-subset(df1, df1$ATS != 0)
 
 summary(df1)
-##summary(df1_med)
 
 
 ## Plot all distribution for tests and control points purchased
@@ -88,6 +86,17 @@ bartlett.test(log(df1$ATS)~df1$Test_Type, data=df1) #variance not significantly 
 ## Step 3: Significance testing points purchased
 
 ## tests for location 35%
-wilcox.test(df1$ATS~df1$Test_Type, conf.level=0.05) # 0.5373 not significant
-t.test(log(df1$ATS)~df1$Test_Type, conf.level=0.05, var.equal=FALSE) # 0.6522 not significant
+wilcox.test(df1$ATS~df1$Test_Type, conf.level=0.05) # 0.8365 not significant
+t.test(log(df1$ATS)~df1$Test_Type, conf.level=0.05, var.equal=FALSE) # 0.9459 not significant
 kruskal.test(ATS~Test_Type, data=df1) # 0.5373 not significant
+
+
+## t test in another format
+
+log_ATS <- log(df1$ATS)
+data <- cbind(log(df1$ATS), as.factor(df1$Test_Type))
+s <- split(data[,1],f=data[,2])
+s[[1]]
+s[[2]]
+t.test(s[[1]], y = s[[2]], alternative='two.sided', paired = FALSE)$p.value
+

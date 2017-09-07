@@ -1,0 +1,42 @@
+// Student's t test
+SCRIPT_REAL('t.test(.arg1, y = .arg2, alternative=.arg3[1],paired=.arg4[1])$p.value',AVG([Drug]),AVG([Placebo]),[Test Type],[Is Paired])
+
+
+
+
+
+SCRIPT_REAL('
+df1 <- data.frame(ATS=.arg1, Test_Type=.arg2);
+t.test(df1$Test_Type, y = df1$ATS, alternative="less", paired=FALSE)$p.value
+'
+,[ATS]
+,ATTR([Test_Type])
+)
+
+
+
+SCRIPT_REAL("
+    data <- cbind(.arg1, as.factor(.arg2))
+    s <- split(data[,1],f=data[,2]) 
+    wilcox.test(s[[1]],s[[2]])$p.value
+", [ATS],ATTR([Test_Type]))
+
+
+SCRIPT_REAL("
+    data <- cbind(log(.arg1), as.factor(.arg2))
+    s <- split(data[,1],f=data[,2]) 
+    t.test(s[[1]], y = s[[2]], alternative='two.sided', paired = FALSE)$p.value
+	"
+	, 	[ATS]
+	,	ATTR([Test_Type])
+)
+
+
+SCRIPT_REAL("
+    data <- cbind(.arg1, as.factor(.arg2))
+    s <- split(data[,1],f=data[,2]) 
+    t.test(s[[1]], y = s[[2]], alternative='two.sided', paired = FALSE)$p.value
+	"
+	, 	[ATS]
+	,	ATTR([Test_Type])
+)
