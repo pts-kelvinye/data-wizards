@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="222" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Transfer Test Txn 0929.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BUCKET_RATIO" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Balance" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="CONFIGURATION_ID" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Account Balance Segment" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Date range" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Visitor Count" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Transaction Count Test" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Test_Type" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Gross Revenue (USD)" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="ATS" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="RPS" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Conversion %" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Unique Visitor Conversion" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Country" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Create Date" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="DAY" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="EMAIL" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Enrollment Date" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="FIRST_NM" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="LAST_NM" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Member Id" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Number of Records" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="OFFER_NM (group)" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="OFFER_NM" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Parent Offer" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Partner" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Points (bin)" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Points" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Product" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="RPT" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Remittance Currency" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Revenue" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Sale Refund Ind" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Session Id" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Source" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Storefront Brand" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Tier" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Visitor Count Test" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Transaction Count Control" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Transaction Id" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Revenue Per Visitor" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+            <Field name="Visitor Count Control" size="254" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Transfer Test Txn 0929.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="222" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Txn Detail with Gross Margin 170928.xlsx
+Table=`Txn$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name=" " size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Payment Date" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Date" />
+            <Field name="Payment Time" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="DateTime" />
+            <Field name="Application" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Loyalty Program" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Touchpoint" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Product" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Confirmation Number" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Provider Order Id" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Offer Id" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Offer Name" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Tags" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Sale/Refund" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Transaction Count" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Base Points" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Bonus Points" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Bonus %" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Payment Type" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Base Sale Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Processing Fee Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="PST/QST Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="GST/HST Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Retail FET Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="VAT Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Total Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Presentment Currency" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Commission Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Partner Base Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Partner Base FET Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Partner Processing Fee Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Partner Bonus Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Partner Bonus FET Amount" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Remittance Currency" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Agent Id" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Purchaser Credit/Debit Id" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Purchaser PIC" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Purchaser Member Id" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Purchaser First Name" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Purchaser Last Name" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Purchaser Email" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Purchaser Membership Tier" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Purchaser Country" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Recipient Credit/Debit Id" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Recipient PIC" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Recipient Member Id" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Recipient First Name" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_WString" />
+            <Field name="Recipient Last Name" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Recipient Email" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Recipient Membership Tier" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="V_String" />
+            <Field name="Source" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Base Sales (Converted to USD)" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Processing Fee (Converted to USD)" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="GST/HST ('Converted' to USD)" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Retail FET (Converted to USD)" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Total Amount (Converted to USD)" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Partner Revenue Total (No FET)" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Points Margin @ 2.75% Fees" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+            <Field name="Wholesale Conversion (Starting May 5, 2017)" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`Txn$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="498" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="318" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Confirmation Number" action="GroupBy" rename="Confirmation Number" />
+            <SummarizeField field="Partner Revenue Total (No FET)" action="Sum" rename="Sum_Partner Revenue Total (No FET)" />
+            <SummarizeField field="Points Margin @ 2.75% Fees" action="Sum" rename="Sum_Points Margin @ 2.75% Fees" />
+            <SummarizeField field="Product" action="GroupBy" rename="Product" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="402" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_5168_9f98a99d5b034b27ab3fc864dbb56cf3_\Engine_18748_c6c8c11392c440f799222871750ece39_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="222" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`order map confirmation_number$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Txn Detail with Gross Margin 170928.xlsx
+Table=`order map confirmation_number$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ORDER_KEY" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`order map confirmation_number$`" type="V_String" />
+            <Field name="ORDER_ID" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`order map confirmation_number$`" type="V_String" />
+            <Field name="CONFIRMATION_NUMBER" size="255" source="File: C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Txn Detail with Gross Margin 170928.xlsx|||`order map confirmation_number$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="ORDER_KEY" selected="True" type="V_WString" size="19" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="582" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Confirmation Number" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CONFIRMATION_NUMBER" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_CONFIRMATION_NUMBER" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="702" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Transaction Id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ORDER_KEY" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Confirmation Number" selected="False" />
+                <SelectField field="Right_Sum_Partner Revenue Total (No FET)" selected="True" rename="Partner Revenue" />
+                <SelectField field="Right_Sum_Points Margin @ 2.75% Fees" selected="True" rename="Points Margin" />
+                <SelectField field="Right_Product" selected="True" rename="Right_Product" />
+                <SelectField field="Right_ORDER_ID" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="822" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="930" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Raw with Margin 0929.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Raw with Margin 0929.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="582" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Balance" selected="True" type="Int64" size="8" />
+            <SelectField field="Visitor Count" selected="False" type="Int16" size="2" />
+            <SelectField field="Transaction Count Test" selected="False" />
+            <SelectField field="Gross Revenue (USD)" selected="True" type="Double" size="8" />
+            <SelectField field="ATS" selected="False" type="Double" size="8" />
+            <SelectField field="RPS" selected="False" type="Double" size="8" />
+            <SelectField field="Conversion %" selected="False" type="Double" size="8" />
+            <SelectField field="Unique Visitor Conversion" selected="False" type="Double" size="8" />
+            <SelectField field="Create Date" selected="False" />
+            <SelectField field="DAY" selected="False" />
+            <SelectField field="Enrollment Date" selected="False" />
+            <SelectField field="OFFER_NM (group)" selected="False" />
+            <SelectField field="Points (bin)" selected="False" />
+            <SelectField field="Points" selected="True" type="Int64" size="8" />
+            <SelectField field="RPT" selected="False" type="Double" size="8" />
+            <SelectField field="Revenue" selected="True" type="Double" size="8" />
+            <SelectField field="Visitor Count Test" selected="False" type="Int16" size="2" />
+            <SelectField field="Transaction Count Control" selected="False" type="Int16" size="2" />
+            <SelectField field="Revenue Per Visitor" selected="False" type="Double" size="8" />
+            <SelectField field="Visitor Count Control" selected="False" type="Int16" size="2" />
+            <SelectField field="DateTime_Out_Create Date" selected="True" rename="Create Date" />
+            <SelectField field="DateTime_Out_Day" selected="True" rename="DAY" type="Date" size="10" />
+            <SelectField field="DateTime_Out_Enrollment Date" selected="True" rename="Enrollment Date" type="Date" size="10" />
+            <SelectField field="PPT" selected="False" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="318" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Create Date</InputFieldName>
+          <Format>MM/dd/yyyy hh:mm:ss</Format>
+          <OutputFieldName>DateTime_Out_Create Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Create Date From:
+MM/dd/yyyy hh:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="402" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>DAY</InputFieldName>
+          <Format>MM/dd/yyyy hh:mm:ss</Format>
+          <OutputFieldName>DateTime_Out_Day</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert DAY From:
+MM/dd/yyyy hh:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="486" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>Enrollment Date</InputFieldName>
+          <Format>MM/dd/yyyy hh:mm:ss</Format>
+          <OutputFieldName>DateTime_Out_Enrollment Date</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert Enrollment Date From:
+MM/dd/yyyy hh:mm:ss</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="930" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\kelvin.ye\workplace\data-wizards\AB Tests\United\Sept Storefront AB Test\Raw 0929 with Margin.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Raw 0929 with Margin.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="11" Connection="Left" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Add Margin</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
