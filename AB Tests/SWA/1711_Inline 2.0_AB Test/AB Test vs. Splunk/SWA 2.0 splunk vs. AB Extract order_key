@@ -1,0 +1,63 @@
+--SELECT
+--            O.ORDER_KEY                ,
+--            O.USER_MV_ID               ,
+--            PAY.PRESENTMENT_CURRENCY_CD,
+--            PAY.REMITTANCE_CURRENCY_CD ,
+--            CASE
+--                WHEN RE.ORDER_KEY IS NULL
+--                THEN POST.SALE_REFUND_IND
+--                ELSE RE.SALE_REFUND_IND
+--            END SALE_REFUND_IND,
+--            POST.CREDIT_POSTING_BASE_AMT +
+--            CASE
+--                WHEN RE.ORDER_KEY IS NOT NULL
+--                THEN POST.CREDIT_POSTING_BONUS_AMT + RE.CREDIT_POSTING_BONUS_AMT +
+--                    RE.CREDIT_POSTING_BASE_AMT
+--                ELSE 0
+--            END CREDIT_POSTING_BASE_AMT,
+--            PAY.REMIT_TOTAL_PAYMENT_AMT +
+--            CASE
+--                WHEN RE.ORDER_KEY IS NOT NULL
+--                THEN RE.REMIT_TOTAL_PAYMENT_AMT
+--                ELSE 0
+--            END TOTAL_PAYMENT_AMT
+            
+            SELECT COUNT(*)
+       FROM
+            MART.ORDER_TRANSACTION_FACT_VW O
+       JOIN
+            MART.OFFER_DIM_VW OFFER
+         ON
+            O.CHOSEN_OFFER_KEY = OFFER.OFFER_KEY
+       JOIN
+            MART.POSTING_FACT_VW POST
+         ON
+            O.ORDER_KEY          = POST.ORDER_KEY
+        AND POST.SALE_REFUND_IND = O.SALE_REFUND_IND
+       JOIN
+            MART.PAYMENT_WITH_FX_FACT_VW PAY
+         ON
+            O.ORDER_KEY = PAY.ORDER_KEY
+--  LEFT JOIN
+--            REFUNDS RE
+--         ON
+--            O.ORDER_KEY = RE.ORDER_KEY
+      WHERE
+            O.ORDER_STATUS         = 'COMPLETE'
+        AND UPPER( O.SANDBOX_IND ) = 'FALSE'
+        AND POST.SALE_REFUND_IND   = 'SALE'
+        AND PAY.PAYMENT_STATUS_CD  = 'SUCCESS'
+        AND PAY.PAYMENT_TYPE_CD    = 'CAPTURE'
+        AND OFFER.OFFER_TYPE_NM IN ( 'BUY'    ,
+                                    'GIFT'    ,
+                                    'TRANSFER',
+                                    'REINSTATE' )
+        AND PAY.PAYMENT_CREATE_EST_DT BETWEEN TIMESTAMPADD(m,-3,CURRENT_TIMESTAMP) AND
+            CURRENT_TIMESTAMP
+AND 
+        O.ORDER_KEY = 81577984    ;
+        
+        
+        SELECT * FROM MART.ORDER_TRANSACTION_FACT_VW WHERE ORDER_KEY = 81597707;
+        SELECT * FROM MART.PAYMENT_WITH_FX_FACT_VW WHERE PAYMENT_WITH_FX_FACT_VW.ORDER_KEY = 81597707;
+        SELECT * FROM MART.REVENUE_COST_FACT_VW WHERE REVENUE_COST_FACT_VW.ORDER_KEY = 81597707;

@@ -32,7 +32,12 @@ SELECT DISTINCT
          ON
             MV.MEMBER_KEY = MEM.MEMBER_KEY
        JOIN
-            MART.OFFER_SET_FACT_VW O
+            (   SELECT DISTINCT 
+                OFFER_SET_FACT_VW.OFFER_KEY
+            ,   OFFER_SET_FACT_VW.USER_MV_ID
+            ,   OFFER_SET_FACT_VW.SESSION_INFO_KEY
+            FROM MART.OFFER_SET_FACT_VW
+            )                                   O       --To eleminate duplicates from offer_set 20171122 KY
          ON
             MV.MV_ID = O.USER_MV_ID
        JOIN

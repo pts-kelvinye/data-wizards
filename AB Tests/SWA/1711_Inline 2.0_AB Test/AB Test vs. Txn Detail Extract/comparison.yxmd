@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Txn Detail Extract 1201_1030 - 1211_0130.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Partner" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Payment Date" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Date" />
+            <Field name="Payment Time" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="DateTime" />
+            <Field name="Application" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Loyalty Program" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Touchpoint" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Product" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Confirmation Number" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Provider Order Id" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Offer Id" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Offer Name" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Tags" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Status" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Sale/Refund" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Transaction Count" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Base Points" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Bonus Points" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Bonus %" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Payment Type" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Base Sale Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Processing Fee Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PST/QST Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="GST/HST Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Retail FET Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="VAT Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Presentment Currency" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Commission Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Partner Base Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Partner Base FET Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Partner Processing Fee Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Partner Bonus Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Partner Bonus FET Amount" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Remittance Currency" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Agent Id" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Purchaser Credit/Debit Id" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Purchaser PIC" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Purchaser Member Id" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Purchaser First Name" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Purchaser Last Name" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Purchaser Email" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Purchaser Membership Tier" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Purchaser Country" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Recipient Credit/Debit Id" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Recipient PIC" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Recipient Member Id" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Recipient First Name" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Recipient Last Name" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Recipient Email" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Recipient Membership Tier" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Source" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Txn Detail Extract 1201_1030 - 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Order_key to Confirmation_Num 1211_0130.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Order_key to Confirmation_Num 1211_0130.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ORDER_KEY" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Order_key to Confirmation_Num 1211_0130.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="CONFIRMATION_NUM" size="255" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Order_key to Confirmation_Num 1211_0130.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="258" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Confirmation Number" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CONFIRMATION_NUM" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="510" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Tableau Txn 1211_0130.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BUCKET_RATIO" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Balance" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="CONFIGURATION_ID" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="True Test ID" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Gross Revenue (USD)" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Account Balance Segment" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Date range" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Visitor Count" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Transaction Count Test" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Test_Type" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Profitability" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="ATS" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="RPS" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Transaction Count" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Conversion %" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Unique Visitor Conversion" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Country" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Create Date" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="DAY" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="EMAIL" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Enrollment Date" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="FIRST_NM" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="LAST_NM" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Member Id" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Number of Records" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="OFFER_NM" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="PPT" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Parent Offer" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Partner" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Points (bin)" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Points" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Product" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="RPT" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Remittance Currency" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Revenue" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Sale Refund Ind" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Session Id" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Source" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Storefront Brand" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Tier" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Visitor Count Test" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Transaction Count Control" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Transaction Id" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Revenue Per Visitor" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="User Agent" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+            <Field name="Visitor Count Control" size="254" source="File: G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\Tableau Txn 1211_0130.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="594" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ORDER_KEY" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Transaction Id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Transaction Count" selected="True" rename="Right_Transaction Count" />
+                <SelectField field="Right_Partner" selected="True" rename="Right_Partner" />
+                <SelectField field="Right_Product" selected="True" rename="Right_Product" />
+                <SelectField field="Right_Remittance Currency" selected="True" rename="Right_Remittance Currency" />
+                <SelectField field="Right_Source" selected="True" rename="Right_Source" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\kelvin.ye\AppData\Local\Temp\Engine_4148_99e0fc0be87445d38100f4958c5a3ca5_\Engine_11464_02f5c9d6dc0a4a2cae851eabed9bc176_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ORDER_KEY" selected="True" type="V_String" size="19" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="774" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="25" MaxRecords="">G:\My Drive\My Documents\GitHub\data-wizards\AB Tests\SWA\1711_Inline 2.0_AB Test\missing txn 1211_0130 v2.xlsx|||Sheet1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>missing txn 1211_0130 v2.xlsx
+Table=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Left" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Left" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>comparison</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
